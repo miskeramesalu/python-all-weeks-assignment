@@ -1,0 +1,15 @@
+# Python File Handling & Exception Handling Assignment
+
+## 📌 Description
+This assignment demonstrates:
+- File reading & writing.
+- Error handling for missing or unreadable files.
+
+## 🖋️ Task 1: File Read & Write
+- Reads text from `input.txt`.
+- Converts content to uppercase.
+- Writes the modified text into `output.txt`.
+
+Run with:
+```bash
+python file_read_write.py
