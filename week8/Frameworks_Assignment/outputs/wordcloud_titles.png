@@ -1,0 +1,8 @@
+from wordcloud import WordCloud
+text = " ".join(titles.dropna().tolist())
+wc = WordCloud(width=1200, height=600, background_color='white').generate(text)
+plt.figure(figsize=(14,7))
+plt.imshow(wc, interpolation='bilinear')
+plt.axis('off')
+plt.savefig('wordcloud_titles.png')
+plt.show()

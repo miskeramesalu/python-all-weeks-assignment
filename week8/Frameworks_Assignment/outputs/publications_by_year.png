@@ -1,0 +1,7 @@
+plt.figure(figsize=(10,4))
+year_counts.plot(kind='bar')
+plt.title('Publications by Year')
+plt.xlabel('Year'); plt.ylabel('Count')
+plt.tight_layout()
+plt.savefig('publications_by_year.png')
+plt.show()

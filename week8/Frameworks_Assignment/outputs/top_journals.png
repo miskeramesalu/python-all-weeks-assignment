@@ -1,0 +1,6 @@
+plt.figure(figsize=(8,6))
+top_journals.sort_values().plot(kind='barh')
+plt.title('Top journals (paper count)')
+plt.tight_layout()
+plt.savefig('top_journals.png')
+plt.show()
